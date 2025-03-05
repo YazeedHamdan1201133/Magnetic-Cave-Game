@@ -13,7 +13,7 @@ Magnetic Cave Game is a strategic board game implemented in Java. It allows two 
 - **🧠 Artificial Intelligence:**
   - **Minimax Algorithm** determines the best move.
   - **Alpha-Beta Pruning** optimizes decision-making.
-- **📊 Board Evaluation:** AI prioritizes moves based on an evaluation function.
+- **Board Evaluation:** AI prioritizes moves based on an evaluation function.
 
 ## 🎮 How to Play
 1. Run the game using the Java compiler:
