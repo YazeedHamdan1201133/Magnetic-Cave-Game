@@ -72,5 +72,5 @@ Developed by **Yazeed Hamdan**
 Feel free to fork the repository, report issues, or submit pull requests to improve the game!
 
 ## 📧 Contact
-For any questions or suggestions, reach out via GitHub Issues or email. 📩
+For any questions or suggestions, reach out via GitHub Issues or email.
 
