@@ -17,10 +17,6 @@ Magnetic Cave Game is a strategic board game implemented in Java. It allows two 
 
 ## 🎮 How to Play
 1. Run the game using the Java compiler:
-   ```sh
-   javac Ai.java
-   java f.Ai
-   ```
 2. Choose a game mode:
    - **1️⃣ :** Player vs. Player
    - **2️⃣ :** Player vs. AI (Minimax)
