@@ -4,7 +4,7 @@
 Magnetic Cave Game is a strategic board game implemented in Java. It allows two players to compete by placing pieces on a **9×9** board to form a **five-in-a-row** pattern. The game supports both **Player vs. Player (PvP)** and **Player vs. AI (PvAI)** modes, where the AI uses the **Minimax Algorithm with Alpha-Beta Pruning** to make decisions.
 
 ## ✨ Features
--  ** Game Modes:**
+-  **Game Modes:**
   -  Player vs. Player (PvP)
   -  Player vs. AI (PvAI) (Minimax-based AI opponent)
 - **Turn-Based Gameplay:** Players take turns placing pieces.
@@ -69,7 +69,7 @@ For a detailed explanation, refer to the **full report (YazeedHamdan1201133Sec.3
 Developed by **Yazeed Hamdan** 
 
 ## Contributions
-Feel free to fork the repository, report issues, or submit pull requests to improve the game! 🎉
+Feel free to fork the repository, report issues, or submit pull requests to improve the game!
 
 ## 📧 Contact
 For any questions or suggestions, reach out via GitHub Issues or email. 📩
