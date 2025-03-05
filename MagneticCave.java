@@ -1,20 +1,19 @@
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-public class Ai {
+public class MagneticCave {
 	
     private static char[][] board; // a 2D array representing the game board. 
     private int currentPlayer; //  to store the current player's turn.
     private static boolean gameEnded; // to indicate whether the game has ended.
 
     public static void main(String[] args) {
-        Ai game = new Ai();
+    	MagneticCave game = new MagneticCave();
         game.playGame();
     }
 
-    public Ai() {
+    public MagneticCave() {
         board = new char[9][9];  
         currentPlayer = 1;
         gameEnded = false;
