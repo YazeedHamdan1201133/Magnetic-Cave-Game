@@ -37,6 +37,18 @@ The AI opponent utilizes the **Minimax Algorithm** with **Alpha-Beta Pruning** t
 - Assigning weights to potential **winning combinations**.
 - Choosing moves that maximize its advantage while blocking the opponent.
 
+### 🏗️ How Minimax Algorithm Works
+1. **Recursive Decision Making:** The AI simulates all possible moves up to a predefined depth.
+2. **Evaluation Function:** Each game state is scored based on the current positioning of pieces.
+3. **Maximizing and Minimizing Players:**
+   - The AI assumes **it is the maximizing player** and tries to select the move with the highest score.
+   - The opponent is the **minimizing player** who aims to lower the AI's potential score.
+4. **Alpha-Beta Pruning:**
+   - **Alpha (α):** Represents the best score the maximizer can guarantee.
+   - **Beta (β):** Represents the best score the minimizer can guarantee.
+   - **Pruning occurs** when a branch cannot possibly influence the final decision, significantly improving efficiency.
+5. **Best Move Selection:** After evaluating all options, the AI picks the best possible move to play.
+
 ## 📜 Report Overview
 The **project report** details:
 1. **Game Initialization:** Menu selection for Player vs. Player or Player vs. AI.
@@ -53,11 +65,13 @@ For a detailed explanation, refer to the **full report (YazeedHamdan1201133Sec.3
 - 🖥️ Implement a graphical user interface (GUI).
 - 🎚️ Add difficulty levels for AI opponents.
 
+
 ## 👨‍💻 Author
-Developed by **Yazeed Hamdan** 🚀
+Developed by **Yazeed Hamdan** 
 
 ## 🤝 Contributions
 Feel free to fork the repository, report issues, or submit pull requests to improve the game! 🎉
 
 ## 📧 Contact
 For any questions or suggestions, reach out via GitHub Issues or email. 📩
+
