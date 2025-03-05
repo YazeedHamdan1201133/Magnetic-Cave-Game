@@ -4,12 +4,12 @@
 Magnetic Cave Game is a strategic board game implemented in Java. It allows two players to compete by placing pieces on a **9×9** board to form a **five-in-a-row** pattern. The game supports both **Player vs. Player (PvP)** and **Player vs. AI (PvAI)** modes, where the AI uses the **Minimax Algorithm with Alpha-Beta Pruning** to make decisions.
 
 ## ✨ Features
-- **🎭 Game Modes:**
-  - 🆚 Player vs. Player (PvP)
-  - 🤖 Player vs. AI (PvAI) (Minimax-based AI opponent)
-- **🔄 Turn-Based Gameplay:** Players take turns placing pieces.
-- **✅ Move Validation:** Ensures only valid moves are allowed.
-- **🏆 Winning Condition Checking:** Detects when a player achieves five in a row.
+- ** Game Modes:**
+  -  Player vs. Player (PvP)
+  -  Player vs. AI (PvAI) (Minimax-based AI opponent)
+- ** Turn-Based Gameplay:** Players take turns placing pieces.
+- ** Move Validation:** Ensures only valid moves are allowed.
+- ** Winning Condition Checking:** Detects when a player achieves five in a row.
 - **🧠 Artificial Intelligence:**
   - **Minimax Algorithm** determines the best move.
   - **Alpha-Beta Pruning** optimizes decision-making.
@@ -27,17 +27,16 @@ Magnetic Cave Game is a strategic board game implemented in Java. It allows two 
 
 ## 🏁 Game Board Representation
 - `_` : Empty Cell ➖
-- `P` : Playable Position ✳️
 - `B` : Black Piece ⚫ (Player 1)
 - `W` : White Piece ⚪ (Player 2 / AI)
 
-## 🤖 AI Implementation
+##  AI Implementation
 The AI opponent utilizes the **Minimax Algorithm** with **Alpha-Beta Pruning** to efficiently search for the best move. It evaluates moves based on:
 - Existing **piece sequences** on the board.
 - Assigning weights to potential **winning combinations**.
 - Choosing moves that maximize its advantage while blocking the opponent.
 
-### 🏗️ How Minimax Algorithm Works
+### How Minimax Algorithm Works
 1. **Recursive Decision Making:** The AI simulates all possible moves up to a predefined depth.
 2. **Evaluation Function:** Each game state is scored based on the current positioning of pieces.
 3. **Maximizing and Minimizing Players:**
@@ -49,7 +48,7 @@ The AI opponent utilizes the **Minimax Algorithm** with **Alpha-Beta Pruning** t
    - **Pruning occurs** when a branch cannot possibly influence the final decision, significantly improving efficiency.
 5. **Best Move Selection:** After evaluating all options, the AI picks the best possible move to play.
 
-## 📜 Report Overview
+## Report Overview
 The **project report** details:
 1. **Game Initialization:** Menu selection for Player vs. Player or Player vs. AI.
 2. **Win Conditions:** Horizontal, vertical, and diagonal five-in-a-row scenarios.
@@ -59,11 +58,11 @@ The **project report** details:
 
 For a detailed explanation, refer to the **full report (YazeedHamdan1201133Sec.3.pdf)**.
 
-## 🚀 Future Enhancements
-- 🔄 Improve AI depth selection dynamically for faster decisions.
-- 🎯 Enhance board evaluation for more strategic play.
-- 🖥️ Implement a graphical user interface (GUI).
-- 🎚️ Add difficulty levels for AI opponents.
+## Future Enhancements
+- Improve AI depth selection dynamically for faster decisions.
+- nhance board evaluation for more strategic play.
+- Implement a graphical user interface (GUI).
+- Add difficulty levels for AI opponents.
 
 
 ## 👨‍💻 Author
