@@ -68,8 +68,6 @@ For a detailed explanation, refer to the **full report (YazeedHamdan1201133Sec.3
 ## Author
 Developed by **Yazeed Hamdan** 
 
-## Contributions
-Feel free to fork the repository, report issues, or submit pull requests to improve the game!
 
 ## 📧 Contact
 For any questions or suggestions, reach out via GitHub Issues or email.
