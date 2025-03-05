@@ -57,9 +57,6 @@ For a detailed explanation, refer to the **full report (YazeedHamdan1201133Sec.3
 - 🖥️ Implement a graphical user interface (GUI).
 - 🎚️ Add difficulty levels for AI opponents.
 
-## 📜 License
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## 👨‍💻 Author
 Developed by **Yazeed Hamdan** 🚀
 
